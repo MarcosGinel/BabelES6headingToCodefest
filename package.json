@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MarcosGinel/BabelES6headingToCodefest#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.13.1",
     "gulp": "^3.9.1",

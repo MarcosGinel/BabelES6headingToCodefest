@@ -16,12 +16,10 @@ gulp.task('scripts', function() {
             .pipe(livereload());
 });
 
-gulp.task('default', ['scripts', 'watch'], function() {
-  console.log("Ejecutando la tarea por defecto...");
-});
-
 gulp.task('watch', function() {
   require('./server.js');
   livereload.listen();
   gulp.watch(SCRIPTS_PATH, ['scripts']);
 });
+
+gulp.task('default', ['scripts', 'watch'], function() { });
