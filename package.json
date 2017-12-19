@@ -1,0 +1,26 @@
+{
+  "name": "babeles6headingtocodefest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosGinel/BabelES6headingToCodefest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosGinel/BabelES6headingToCodefest/issues"
+  },
+  "homepage": "https://github.com/MarcosGinel/BabelES6headingToCodefest#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-livereload": "^3.8.1",
+    "static-server": "^2.0.0"
+  }
+}
